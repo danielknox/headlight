@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For L298N
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Headlight	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+mainbeam	KEYWORD2
+mainbeamFor	KEYWORD2
+dipped	KEYWORD2
+dippedFor	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
+reset	KEYWORD2
+isOn	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MAINBEAM	LITERAL1
+DIPPED	LITERAL1
