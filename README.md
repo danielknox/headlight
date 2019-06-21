@@ -26,10 +26,10 @@ Headlight myHeadlight(IN1, IN2);
 | :----- | :---------- | :------
 |**mainbeam**|none| Run headlight in mainbeam mode (may depends on wires).
 |**mainbeamFor**|unsigned long delay| Run headlight in mainbeam mode for a time specified by delay.
-|**mainbeamFor**|unsigned long delay, CallBackFunction callback| Run headlight in mainbeam mode for a time specified by delay, after moving execute the callback function.
+|**mainbeamFor**|unsigned long delay, CallBackFunction callback| Run headlight in mainbeam mode for a time specified by delay, after on execute the callback function.
 |**dipped**|none| Run headlight in dipped mode (may depends by wires).
 |**dippedFor**|unsigned long delay| Run headlight in dipped mode for a time specified by delay.
-|**dippedFor**|unsigned long delay, CallBackFunction callback| Run headlight in dipped mode for a time specified by delay, after moving execute the callback function.
+|**dippedFor**|unsigned long delay, CallBackFunction callback| Run headlight in dipped mode for a time specified by delay, after on execute the callback function.
 |**on**|uint8_t mode| Light headlight. To specify the mode use *HEADLAMP::MAINBEAM* or *HEADLAMP::DIPPED*. 
 |**off**|none| Turn off the headlight.
 |**reset**|none| Used to re-enable headlight after the use of forwardFor and backwardFor methods.
