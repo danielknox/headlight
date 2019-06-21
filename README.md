@@ -8,16 +8,16 @@ L298N modules have the ability to drive upto 4 DC devices motors at once, this l
 Download this repository as a .zip file and from the Arduino IDE go to *Sketch -> Include library -> Add .ZIP Library*
 
 ## IMPORT
-You can import the library in your code using the Arduino IDE going to *Sketch -> Include library -> L298N*
+You can import the library in your code using the Arduino IDE going to *Sketch -> Include library -> Headlight*
 or directly writing the include statement in your code:
 
 ```
-#include <L298N.h>
+#include <Headlight.h>
 ```
 ## INSTANCE THE MODULE
 To drive a motor the first think is to create an istance of the library.
 ```
-HEADLIGHT myHeadlight(EN, IN1, IN2);
+Headlight myHeadlight(IN1, IN2);
 ```
 * IN1 and IN2 are two digital pin connected to IN1 and IN2 of the module
 
@@ -33,4 +33,4 @@ HEADLIGHT myHeadlight(EN, IN1, IN2);
 |**on**|uint8_t mode| Light headlight. To specify the mode use *HEADLAMP::MAINBEAM* or *HEADLAMP::DIPPED*. 
 |**off**|none| Turn off the headlight.
 |**reset**|none| Used to re-enable headlight after the use of forwardFor and backwardFor methods.
-|**isMoving**|none| Returns a boolean indicating if headlight is on or not.
+|**isOn**|none| Returns a boolean indicating if headlight is on or not.
