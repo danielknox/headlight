@@ -22,7 +22,7 @@ To drive a headlight the first thing is to create an istance of the library.
 ```
 Headlight myHeadlight(IN1, IN2);
 ```
-* IN1 and IN2 are two digital pin connected to IN1 and IN2 of the module
+* IN1 and IN2 are two digital pin connected to IN1 and IN2 (or IN3 and IN4) of the module
 
 ## Methods
 | Method | Params | Description
