@@ -2,7 +2,7 @@
 A easy to use L298N library to control bike headlights with Arduino.
 
 ## NOTICE
-L298N modules have the ability to drive upto 4 DC devices motors at once, this library is intended to pilot only one headlight. So if you need to drive more lights (e.g. hazards), you either need another instance of this library or (more likely) the hazard library.
+L298N modules have the ability to drive upto 4 DC devices at once, this library is intended to pilot only one headlight. So if you need to drive more lights (e.g. hazards), you either need another instance of this library or (more likely) the hazard library.
 
 ## INSTALL THE LIBRARY
 Download this repository as a .zip file and from the Arduino IDE go to *Sketch -> Include library -> Add .ZIP Library*
@@ -12,7 +12,7 @@ You can import the library in your code using the Arduino IDE going to *Sketch -
 or directly writing the include statement in your code:
 
 ```
-#include <Headlight.h>
+#include <headlight.h>
 ```
 ## INSTANCE THE MODULE
 To drive a motor the first think is to create an istance of the library.
