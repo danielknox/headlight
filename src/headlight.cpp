@@ -1,7 +1,6 @@
 /*
-  L298N.cpp - Libreria per gestire i movimenti di un motore DC con il modulo L298N
-  Autore:   Andrea Lombardo
-  Sito web: http://www.lombardoandrea.com  
+  headlight.cpp - Based on Andrew Lombardo's library (http://www.lombardoandrea.com  )
+  Author:   Daniel Knox
 */
 
 #include "headlight.h"
