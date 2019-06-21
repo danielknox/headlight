@@ -4,7 +4,7 @@
 #define IN1 8
 #define IN2 7
 
-//create a motor instance
+//create a headlight instance
 Headlight headlight(IN1, IN2);
 
 void setup() {
